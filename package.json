@@ -1,0 +1,19 @@
+{
+  "name": "dummy-jest-reporter",
+  "version": "1.0.0",
+  "description": "Dummy Jest reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "27.4.5"
+  },
+  "jest": {
+    "reporters": [
+      "./src/dummy-reporter.js"
+    ]
+  }
+}
